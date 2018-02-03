@@ -7,9 +7,6 @@ import org.openqa.selenium.support.PageFactory;
 import utils.BasePage;
 
 import java.security.SecureRandom;
-import java.util.ArrayList;
-import java.util.List;
-
 
 public class RegistrationPage extends BasePage {
 
@@ -19,7 +16,6 @@ public class RegistrationPage extends BasePage {
     }
 
     private SecureRandom random = new SecureRandom();
-    private List <WebElement> elements = new ArrayList<WebElement>();
 
     private By firstName = By.name("first_name");
     private By lastName = By.name("last_name");
